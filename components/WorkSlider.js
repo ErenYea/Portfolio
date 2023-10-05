@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
 import { BsArrowRight } from "react-icons/bs";
-import Image from "next/Image";
+import Image from "next/image";
 
 // data
 const workSlides = {

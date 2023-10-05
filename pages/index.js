@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
