@@ -7,7 +7,7 @@ import {
   FaJs,
   FaReact,
   FaWordpress,
-  FaFigma,
+  FaPython,
 } from "react-icons/fa";
 
 import {
@@ -25,65 +25,78 @@ export const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key={0} />,
+          <FaCss3 key={1} />,
+          <FaJs key={2} />,
+          <FaReact key={3} />,
+          <SiNextdotjs key={4} />,
+          <SiFramer key={5} />,
+          <FaWordpress key={6} />,
         ],
       },
       {
-        title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        title: "Machine Learning",
+        icons: [<FaPython key={0} />],
+      },
+      {
+        title: "Web Scraping",
+        icons: [<FaPython key={0} />],
       },
     ],
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
+  // {
+  //   title: "awards",
+  //   info: [
+  //     {
+  //       title: "Webby Awards - Honoree",
+  //       stage: "2011 - 2012",
+  //     },
+  //     {
+  //       title: "Adobe Design Achievement Awards - Finalist",
+  //       stage: "2009 - 2010",
+  //     },
+  //   ],
+  // },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Machine Learning Engineer - CorssWing Inc",
+        stage: "2022 - Present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Web Harvester - Profecialinks",
+        stage: "2021 - 2022",
       },
     ],
   },
   {
-    title: "credentials",
+    title: "education",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Computer Science - NED University, PK",
+        stage: "2019 - 2023",
+      },
+    ],
+  },
+  {
+    title: "Certificates",
+    info: [
+      {
+        title: "Deep Learning with TensorFlow",
+        stage: "Aug'2022",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Machine Learning & AI",
+        stage: "Aug'2022",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "React, Redux",
+        stage: "Jan'2022",
+      },
+      {
+        title: "NodeJs",
+        stage: "Jan'2022",
       },
     ],
   },
@@ -98,9 +111,9 @@ import CountUp from "react-countup";
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left overflow-auto">
       <Circles />
-      <motion.div
+      {/* <motion.div
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -108,7 +121,7 @@ const About = () => {
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
         <Avatar />
-      </motion.div>
+      </motion.div> */}
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
@@ -116,7 +129,7 @@ const About = () => {
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="h2"
+            className="md:xl:lg:sm:h2 "
           >
             Captivating <span className="text-accent">stories</span> birth
             magnificent designs.
@@ -128,9 +141,9 @@ const About = () => {
             exit={"hidden"}
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collaborated on digital products for business and consumer use.
+            4 years ago, I began freelancing as a developer. Since then,
+            I&apos;ve done remote work for companies, consulted for startups,
+            and collaborated on software products for business and consumer use.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
@@ -143,7 +156,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} /> +
+                  <CountUp start={0} end={4} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -152,7 +165,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={20} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -161,21 +174,21 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} /> +
+                  <CountUp start={0} end={30} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
                 </div>
               </div>
               {/* awards */}
-              <div className="relative flex-1 ">
+              {/* <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Winning awards
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>
