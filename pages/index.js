@@ -10,7 +10,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full ">
+    <div className="bg-primary/60 h-full overflow-auto mt-8 md:lg:xl:mt-0">
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1
@@ -18,7 +18,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="h1"
+            className="md:lg:xl:h1"
           >
             Transforming Ideas <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
@@ -28,12 +28,15 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0  xl:mb-16"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-            ipsum possimus cumque dolorum quas quasi, nam ab qui hic incidunt
-            architecto suscipit, pariatur doloribus eligendi voluptate accusamus
-            quae voluptates eaque.
+            Versatile BackEnd Developer and Computer Vision Engineer with over 2
+            years of experience in the MERN stack and machine learning
+            applications. Expert in YOLOv7, specializing in pose detection and
+            RULA score estimation. Adept at delivering innovative solutions
+            through cutting-edge technologies, with a continuous commitment to
+            learning and expertise expansion in machine learning and web
+            development.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />

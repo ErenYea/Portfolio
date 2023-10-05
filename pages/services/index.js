@@ -17,7 +17,7 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="h2 xl:mt-8"
+              className="md:lg:xl:h2 text-xl xl:mt-8"
             >
               My services <span className="text-accent">.</span>
             </motion.h2>
@@ -28,10 +28,10 @@ const Services = () => {
               exit={"hidden"}
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              doloribus unde illum sit cupiditate nostrum, aliquam, inventore
-              quasi voluptate dolore ducimus sapiente architecto a id fugit
-              molestiae aspernatur. Rem, expedita.
+              Machine Learning Engineer, Hamza, melds computer vision and
+              intelligent design to solve real-world challenges, crafting
+              innovative and impactful technological solutions with a
+              forward-thinking approach.
             </motion.p>
           </div>
           <motion.div

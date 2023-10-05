@@ -6,7 +6,7 @@ import { fadeIn } from "../../variants";
 
 const Work = () => {
   return (
-    <div className="h-full bg-primary/30 py-36 flex items-center">
+    <div className="h-full bg-primary/30 mt-4 md:lg:xl:mt-0 py-36 flex items-center overflow-auto">
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
@@ -17,7 +17,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="h2 xl:mt-12"
+              className="md:lg:xl:h2 xl:mt-12 text-xl"
             >
               My Work <span className="text-accent">.</span>
             </motion.h2>
@@ -26,12 +26,12 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="md:lg:xl:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              doloribus unde illum sit cupiditate nostrum, aliquam, inventore
-              quasi voluptate dolore ducimus sapiente architecto a id fugit
-              molestiae aspernatur. Rem, expedita.
+              Specializing in machine learning and computer vision, I, Hamza,
+              innovate practical solutions like the Scheduler Optimizer and RULA
+              Score Detector, enhancing efficiency and safety in work
+              environments.
             </motion.p>
           </div>
           <motion.div
