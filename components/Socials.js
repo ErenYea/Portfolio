@@ -48,7 +48,7 @@ const Socials = () => {
       </Link>
       <Link
         href={
-          "https://drive.google.com/file/d/1WY4PIqJZAhyKjj9DzR3tz05gxeF5qBVl/view?usp=sharing"
+          "https://drive.google.com/file/d/1j0K5CoAhB7i-rd5JT2fUzMkITTKh9Tiq/view?usp=sharing"
         }
         target="_blank"
         className=" hover:text-accent transition-all duration-300"
