@@ -20,7 +20,7 @@ const workSlides = {
         },
         {
           title: "Lovum",
-          path: "/lovum.png",
+          path: "/Lovum.png",
           link: "https://lovum-7d70c.web.app/",
         },
         {
