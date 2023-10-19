@@ -12,24 +12,24 @@ import Image from "next/image";
 const testimonialData = [
   {
     image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    name: "Victoria Mugela",
+    position: "Client",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Great to work with. Develop the application quite fast. Always cooperative and easy to communicate. ",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/owais.png",
+    name: "Owais",
+    position: "Client",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I am pleased to provide my strongest recommendation for Hamza Ali Khan as a Junior Software Engineer. Throughout our time working together, I had the privilege of witnessing Hamza's unwavering dedication and exceptional expertise in the field of data collection from diverse sources. Hamza consistently demonstrated meticulous attention to detail, ensuring the utmost precision and reliability of the collected data. ",
   },
   {
     image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    name: "David",
+    position: "Client",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Great to work with. Develop the application quite fast. Always cooperative and easy to communicate.",
   },
 ];
 
