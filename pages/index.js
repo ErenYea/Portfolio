@@ -30,13 +30,13 @@ const Home = () => {
             exit={"hidden"}
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0  xl:mb-16"
           >
-            Versatile BackEnd Developer and Computer Vision Engineer with over 2
-            years of experience in the MERN stack and machine learning
-            applications. Expert in YOLOv7, specializing in pose detection and
-            RULA score estimation. Adept at delivering innovative solutions
+            Versatile Backend Developer and Computer Vision Engineer with over 2
+            years of experience in the MERN stack and a focus on machine
+            learning technologies. Adept at delivering innovative solutions
             through cutting-edge technologies, with a continuous commitment to
-            learning and expertise expansion in machine learning and web
-            development.
+            learning and expertise expansion in both machine learning and web
+            development. Welcome to my portfolio landing, where creativity meets
+            functionality.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />

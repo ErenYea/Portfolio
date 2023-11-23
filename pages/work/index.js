@@ -17,7 +17,7 @@ const Work = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="md:lg:xl:h2 xl:mt-12 text-xl"
+              className="md:lg:xl:h2 xl:mt-6 text-xl"
             >
               My Work <span className="text-accent">.</span>
             </motion.h2>
@@ -28,10 +28,13 @@ const Work = () => {
               exit={"hidden"}
               className="md:lg:xl:mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Specializing in machine learning and computer vision, I, Hamza,
-              innovate practical solutions like the Scheduler Optimizer and RULA
-              Score Detector, enhancing efficiency and safety in work
-              environments.
+              Pioneering the realms of Web Development and Machine Learning, I,
+              Hamza, craft ingenious solutions that redefine the landscape of
+              innovation. From groundbreaking creations like the RULA Score
+              Detector to seamless Ecommerce Websites, I bring a touch of
+              creativity and functionality to every project. Welcome to a
+              journey where technology meets elegance, and practicality meets
+              aesthetics.
             </motion.p>
           </div>
           <motion.div

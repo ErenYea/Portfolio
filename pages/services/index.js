@@ -17,7 +17,7 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="md:lg:xl:h2 text-xl xl:mt-8"
+              className="md:lg:xl:h2 text-xl xl:mt-3"
             >
               My services <span className="text-accent">.</span>
             </motion.h2>
@@ -26,12 +26,14 @@ const Services = () => {
               initial="hidden"
               animate="show"
               exit={"hidden"}
-              className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+              className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-sm md:text-base "
             >
-              Machine Learning Engineer, Hamza, melds computer vision and
-              intelligent design to solve real-world challenges, crafting
-              innovative and impactful technological solutions with a
-              forward-thinking approach.
+              Web Developer and Machine Learning Enthusiast, Hamza, seamlessly
+              integrates creative design, advanced web technologies, and machine
+              learning capabilities to tackle real-world challenges. His
+              innovative and impactful solutions showcase a forward-thinking
+              approach that bridges the gap between intelligent design and
+              technological prowess.
             </motion.p>
           </div>
           <motion.div

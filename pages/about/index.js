@@ -40,7 +40,7 @@ export const aboutData = [
       },
       {
         title: "Web Scraping",
-        icons: [<FaPython key={0} />],
+        icons: [<FaPython key={0} />, <FaJs key={1} />],
       },
     ],
   },

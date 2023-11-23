@@ -14,6 +14,30 @@ const workSlides = {
     {
       images: [
         {
+          title: "AIgnitiveX",
+          path: "/aignitivex.png",
+          link: "https://aignitivex.vercel.app/",
+        },
+        {
+          title: "Baggins",
+          path: "/baggins.png",
+          link: "https://baggin-git-mehdidev-erenyea.vercel.app/",
+        },
+        {
+          title: "Data Analytics Website",
+          path: "/mockup.png",
+          link: "https://mockup-frontend.vercel.app/",
+        },
+        {
+          title: "Monarca Jewelry",
+          path: "/monarca.png",
+          link: "https://www.monarcajewels.com/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
           title: "Amazon Clone",
           path: "/amazon.png",
           link: "https://amazon-clone-with-nextjs-reactjs-webhooks-stripe-checkout-fi.mhuzaifa4.repl.co/",
@@ -21,7 +45,7 @@ const workSlides = {
         {
           title: "Lovum",
           path: "/Lovum.png",
-          link: "https://lovum-7d70c.web.app/",
+          link: "https://lovumgroup.com/",
         },
         {
           title: "Hulu Clone",
@@ -29,32 +53,10 @@ const workSlides = {
           link: "https://hulu-1586e.web.app/",
         },
         {
-          title: "Baggins",
-          path: "/baggins.png",
-          link: "https://baggin-git-mehdidev-erenyea.vercel.app/",
-        },
-      ],
-    },
-    {
-      images: [
-        {
-          title: "AIgnitiveX",
-          path: "/aignitivex.png",
-          link: "https://aignitivex.com/",
-        },
-        {
           title: "MyBricks",
           path: "/mybricks.png",
           link: "https://mybricks.vercel.app/",
         },
-        // {
-        //   title: "title",
-        //   path: "/thumb2.jpg",
-        // },
-        // {
-        //   title: "title",
-        //   path: "/thumb3.jpg",
-        // },
       ],
     },
   ],
@@ -65,7 +67,7 @@ const workSlides = {
 const WorkSlider = () => {
   return (
     <Swiper
-      spaceBetween={10}
+      spaceBetween={8}
       pagination={{
         clickable: true,
       }}
@@ -89,7 +91,7 @@ const WorkSlider = () => {
                         src={image.path}
                         alt=""
                         width={500}
-                        height={300}
+                        height={400}
                         className=" object-cover h-full"
                       />
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
