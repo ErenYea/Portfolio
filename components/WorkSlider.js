@@ -16,7 +16,7 @@ const workSlides = {
         {
           title: "AIgnitiveX",
           path: "/aignitivex.png",
-          link: "https://aignitivex.vercel.app/",
+          link: "https://aignitivex.com/",
         },
         {
           title: "Baggins",
