@@ -47,9 +47,7 @@ const Socials = () => {
         <RiGithubLine />
       </Link>
       <Link
-        href={
-          "https://drive.google.com/file/d/1ezLzy5KRRONTDb5N68pJsrp1Y-wRjIwC/view?usp=sharing"
-        }
+        href={"https://flowcv.com/resume/ddwok7vfjr"}
         target="_blank"
         className=" hover:text-accent transition-all duration-300"
       >

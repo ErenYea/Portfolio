@@ -11,32 +11,34 @@ import { fadeIn } from "../variants";
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full overflow-hidden mt-8 md:lg:xl:mt-0">
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+      <div className="w-full h-full mt-6 md:mt-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+        <div className="text-center flex flex-col  justify-center xl:pt-40 xl:text-left h-full container mx-auto">
           <motion.h1
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="md:lg:xl:h1"
+            className="md:lg:xl:h2 max-w-sm xl:max-w-xl mx-auto xl:mx-0 "
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Crafting Innovation Through Code <br />
+            <span className="text-accent md:lg:xl:h3">
+              Turning Concepts into Digital Excellence
+            </span>
           </motion.h1>
           <motion.p
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             animate="show"
             exit={"hidden"}
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0  xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto text-base md:text-lg text-justify xl:mx-0  xl:mb-16"
           >
-            Versatile Backend Developer and Computer Vision Engineer with over 2
-            years of experience in the MERN stack and a focus on machine
-            learning technologies. Adept at delivering innovative solutions
-            through cutting-edge technologies, with a continuous commitment to
-            learning and expertise expansion in both machine learning and web
-            development. Welcome to my portfolio landing, where creativity meets
-            functionality.
+            Dynamic MERN Stack Developer and Machine Learning Engineer with a
+            rich background spanning over 2 years. Proficient in crafting
+            solutions that seamlessly integrate the power of the MERN stack with
+            cutting-edge machine learning technologies. Committed to innovation
+            and continuous learning, I thrive on transforming challenges into
+            opportunities. Step into my portfolio, where the intersection of
+            creativity and functionality defines my digital journey.
           </motion.p>
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
