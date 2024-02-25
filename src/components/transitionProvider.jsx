@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./navbar";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
-
+import Image from "next/image";
 const TransitionProvider = ({ children }) => {
   const pathName = usePathname();
 
@@ -27,7 +27,8 @@ const TransitionProvider = ({ children }) => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {pathName.substring(1)}
+          <Image src="/logom.png" width={200} height={200} />
+          {/* {pathName.substring(1) === "" ? "Home" : } */}
         </motion.div>
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"

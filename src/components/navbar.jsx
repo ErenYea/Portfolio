@@ -11,6 +11,7 @@ const links = [
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
   { url: "/contact", title: "Contact" },
+  { url: "https://flowcv.com/resume/ddwok7vfjr", title: "Resume" },
 ];
 
 const Navbar = () => {
@@ -82,30 +83,31 @@ const Navbar = () => {
           href="/"
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
-          <span className="text-white mr-1">Lama</span>
+          <span className="text-white mr-1">Hamza</span>
           <span className="w-12 h-8 rounded bg-white text-black flex items-center justify-center">
             .dev
           </span>
         </Link>
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="/">
+      <div className="hidden md:flex justify-end gap-4 w-1/3">
+        <Link href="https://github.com/ErenYea" target="_blank">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/" target="_blank">
           <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+        {/* <Link href="/" target="_blank">
           <Image src="/instagram.png" alt="" width={24} height={24} />
         </Link>
-        <Link href="/">
+        <Link href="/" target="_blank">
           <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
+        </Link> */}
+
+        <Link
+          href="https://www.linkedin.com/in/hamza-ali-khan-5781b0200/"
+          target="_blank"
+        >
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
@@ -143,10 +145,16 @@ const Navbar = () => {
             {links.map((link) => (
               <motion.div
                 variants={listItemVariants}
-                className=""
+                className="z-[100]"
                 key={link.title}
               >
-                <Link href={link.url}>{link.title}</Link>
+                {link.title === "Resume" ? (
+                  <Link href={link.url} target="_blank">
+                    {link.title}
+                  </Link>
+                ) : (
+                  <Link href={link.url}>{link.title}</Link>
+                )}
               </motion.div>
             ))}
           </motion.div>
