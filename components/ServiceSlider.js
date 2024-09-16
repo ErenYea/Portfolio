@@ -11,36 +11,37 @@ import {
   RxReader,
   RxRocket,
   RxArrowTopRight,
+  RxRobot,
 } from "react-icons/rx";
+import { VscBracketDot } from "react-icons/vsc";
 
 import { FreeMode, Pagination } from "swiper";
 
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <VscBracketDot />,
+    title: "Machine Learning",
+    description:
+      "Enhancing workplace safety and efficiency with innovative machine learning solutions.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Development",
+    description:
+      "Delivering dynamic, user-focused and complex web and mobile solutions.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Computer Vision",
+    description:
+      "Boosting security and efficiency with innovative Computer Vision.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Scraping",
+    description:
+      "Developing fast and scaled web crawler and scrapers that bypass security",
   },
 ];
 
