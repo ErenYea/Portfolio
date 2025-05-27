@@ -11,7 +11,7 @@ const links = [
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
   { url: "/contact", title: "Contact" },
-  { url: "https://flowcv.com/resume/ddwok7vfjr", title: "Resume" },
+  { url: "https://flowcv.com/resume/6v7ig8lbh9e8", title: "Resume" },
 ];
 
 const Navbar = () => {
